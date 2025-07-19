@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORKS DELIGHTS</title>
+    <link rel="icon" type="png" href="images/home page images/Logo1.png">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/04cdc07927.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <a href="home.html"><img id="logo" src="images/home page images/Logo1.png"></a>
+        <div class="nav-left">
+            <a href=""> <button id="nav-btn">DINING</button></a>
+            <a><button id="nav-btn">OFFERS</button></a>
+            <a href=""><button id="nav-btn">GIFTS</button></a>
+            <button id="nav-btn">MORE<i class="fa-solid fa-chevron-down"></i></button>
+        </div>
+        <div class="nav-right">
+            <button id="nav-right-btn" onclick="showBookATablePopup()" > BOOK A TABEL</button>
+            <button id="nav-right-btn"> BOOK A STAY</button>
+        </div>
+    </nav>
+
+    <div class="block-1">
+        <img src="images/home page images/Thali-Gradient.jpg">
+        <img src="images/home page images/FORKS_DELIGHTS-LOGO.png">
+    </div>
+
+    <br><br>
+    <div class="BookATable-popup" style="display:none;">
+        <button id="BookATable-popup-close-btn"><i class="fa-solid fa-circle-xmark"></i></button>
+        <h2>Table Booking</h2>
+        <form>
+            <input id="book-name" type="text" placeholder="Enter Name"><br>
+            <input id="book-email" type="email" placeholder="Enter Email"><br>
+            <input id="book-phone" type="tel" placeholder="Enter Phone Number"><br>
+            <input id="book-date" type="date" placeholder="Select Date"><br>
+            <input id="book-time" type="time" placeholder="Select Time"><br>
+            <input id="book-guests" type="number" placeholder="Number of Guests"><br>
+            <select id="book-table" >
+                <option id="table-num-option">Select a Tabel</option>
+                <!-- <option>Table 1</option>
+                <option>Table 2</option>
+                <option>Table 3</option> -->
+            </select><br>
+            <button type="submit" id="book-btn">Book Now</button>
+        </form>
+        <div class="select-table">
+        <img id="hidden-img" src="images/OIG3.jpg" usemap="#image-map" alt="Image not found" >
+
+<map name="image-map" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="11" title="11" href="" coords="45,46,119,44,123,116,44,116" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="12" title="12" href="" coords="171,19,209,19,209,84,172,85" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="13" title="13" href="" coords="242,59,293,57,292,110,244,111" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="14" title="14" href="" coords="357,59,404,58,404,110,356,112" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="15" title="15" href="" coords="437,19,476,18,476,84,438,85" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="16" title="16" href="" coords="527,46,604,45,605,115,525,116" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="21" title="21" href="" coords="47,155,89,156,89,200,50,200" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="22" title="22" href="" coords="154,142,225,140,226,211,154,211" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="23" title="23" href="" coords="293,142,355,142,355,200,293,200" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="24" title="24" href="" coords="423,143,492,142,491,209,423,210" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="25" title="25" href="" coords="562,155,603,155,604,200,561,201" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="31" title="31" href="" coords="94,218,128,254,96,289,74,268,73,239" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="32" title="32" href="" coords="554,220,519,253,555,289,575,266,576,239" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="41" title="41" href="" coords="55,284,86,317,56,347,25,317" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="42" title="42" href="" coords="156,276,225,278,225,342,155,342" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="43" title="43" href="" coords="294,278,355,279,354,344,293,342" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="44" title="44" href="" coords="423,277,492,278,490,341,422,344" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="45" title="45" href="" coords="565,317,597,284,627,318,597,347" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="51" title="51" href="" coords="111,341,143,375,119,398,86,366" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="52" title="52" href="" coords="538,341,505,375,529,400,562,367" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="61" title="61" href="" coords="48,409,88,409,89,453,47,453" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="62" title="62" href="" coords="155,407,225,409,226,471,156,472" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="63" title="63" href="" coords="293,408,354,409,355,467,294,467" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="64" title="64" href="" coords="491,409,424,408,424,472,492,471" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="65" title="65" href="" coords="561,409,604,409,603,453,562,454" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="71" title="71" href="" coords="45,509,123,508,124,578,45,577" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="72" title="72" href="" coords="172,540,209,538,209,598,171,598" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="73" title="73" href="" coords="243,508,293,509,292,564,244,568" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="74" title="74" href="" coords="354,509,405,508,405,566,356,568" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="75" title="75" href="" coords="440,538,477,538,477,597,438,598" shape="poly" >
+    <area  class="img-hover-area" href="javascript:void(0)" target="" alt="76" title="76" href="" coords="527,506,605,509,606,576,527,578" shape="poly" >
+</map>
+</div>  
+    </div>
+    <br><br> 
+    </div>
+    <div class="block-2">
+
+        <div class="block-2-heading">
+            <img src="images/home page images/fork_1half.png" width="200px" height="80px">
+            <h1>DELIGHTS SPECIAL</h1>
+            <img src="images/home page images/fork_2half.png" width="200px" height="60px">
+        </div>
+        <br><br>
+        <div class="row-1">
+            <img src="images/home page images/indian-style-vegetable-curry.jpeg">
+            <div class="row1-info">
+                <h3>Indian Style Vegetable Curry</h3>
+                <pre>Our hotel’s signature Indian-style vegetable curry features fresh seasonal vegetables 
+    in a rich, spiced tomato and coconut sauce, perfectly balanced with fragrant 
+        cumin and our special garam masala. Served with basmati rice or naan, 
+                                        it's an authentic taste of Indian tradition.
+                </pre>
+            </div>
+        </div>
+
+        <div class="row-2">
+            <div class="row2-info">
+                <h3>Paneer Tikka Masala</h3>
+                <pre>  Our hotel’s signature Paneer Tikka Masala showcases tender, marinated paneer cubes cooked 
+                in a rich, spiced tomato and cream sauce, infused with our chef’s special 
+                            blend of aromatic spices. Paired with basmati rice or naan, 
+                                it’s a perfect fusion of creamy, tangy and smoky flavors.
+                </pre>
+            </div>
+            <img src="images/home page images/PANEER_TIKKA_MASALA-food.jpg">
+        </div>
+
+        <div class="row-1">
+            <img src="images/home page images/crepes-with-pineapple-and-coconut.jpeg">
+            <div class="row1-info">
+            <h3>Crepes with pineapple and coconut</h3>
+            <pre>Start your day the tropical way with these deliciously simple coconut and pineapple 
+ crepes. Delicate crepes envelop juicy pineapple and a sprinkle of toasted coconut, 
+   creating a perfect harmony of tropical sweetness and light, nutty crunch. Finished 
+          with a drizzle of coconut cream, each bite is a blissful escape to the islands.
+            </pre>
+            </div>
+        </div>
+
+        <div class="row-2">
+            
+            <div class="row2-info">
+            <h3>Tofu Noodle soup</h3>
+            <pre>Our hotel’s signature Tofu Noodle Soup features soft tofu and fresh vegetables in a light, savory 
+            broth, enhanced with delicate herbs and spices. Served with tender noodles, it offers 
+                        a comforting blend of warmth and wholesome flavors in every bowl.
+            </pre>
+            </div>
+            <img src="images/home page images/slow-cooker-middle-eastern-chickpea-stew.jpeg">
+        </div>
+    </div>
+
+    <br><br>
+    
+    <div class="block-3">
+
+        <img class="slide" src="images/background/interior1.jpg">
+        <img class="slide" src="images/background/interior2.jpg">
+        <img class="slide" src="images/background/interior3.jpg">
+        <img class="slide" src="images/background/interior4.jpg">
+        <img class="slide" src="images/background/interior5.jpg">
+        <img class="slide" src="images/background/interior6.jpg">
+        <img class="slide" src="images/background/interior7.jpg">
+        <img class="slide" src="images/background/interior8.jpg">
+        <img class="slide" src="images/background/interior9.jpg">
+        <img class="slide" src="images/background/interior10.webp">
+        <img class="slide" src="images/background/interior11.jpg">
+        <img class="slide" src="images/background/interior12.jpg">
+        <img class="slide" src="images/background/interior13.jpg">
+        <img class="slide" src="images/background/interior14.jpg">
+        <img class="slide" src="images/background/interior15.jpg">
+        <img class="slide" src="images/background/interior16.jpg">
+        <img class="slide" src="images/background/interior17.jpg">
+        <img class="slide" src="images/background/interior18.jpg">
+        <img class="slide" src="images/background/interior19.jpg">
+        <img class="slide" src="images/background/interior20.jpg">
+        <img class="slide" src="images/background/interior21.jpg">
+    </div>
+    <div class="slide-btn">
+        <button class="prev" onclick="goPrev()"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="next" onclick="goNext()"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+
+    <br><br>
+
+    <div class="block-4-heading">
+        <img src="images/home page images/butter_knife_2.png" width="250px" height="60px">
+        <h1>OUR CHEFS</h1>
+        <img src="images/home page images/butter_knife_1.png" width="250px" height="60px">
+    </div>
+    <div class="block-4">
+
+            <div class="col-1">
+                <img src="images/chefs/Anahita-Dhonde.jpg" height="400px" width="300px">
+                <h3>Anahita Dhonde</h3>
+                <pre>Anahita Dhondy is the Chef Manager at the famous 
+Bombay Irani Cafe and Bar, SodabottleOpenerWala. 
+Her career went to another level as she introduced 
+the best of the Parsi cuisine through SodaBottle-
+OpenerWala creating a whole new trend around the 
+best restaurant chains in the country. She also won 
+‘The Young Chef’ award, Times Food Award and the 
+Hospitality Sector ‘Indian of the year’ title.
+            </pre>
+            </div>
+
+            <div class="col-2">
+                <img src="images/chefs/Bani-Nanda.jpg" width="300px" height="400px">
+                <h3>Bani Nanda</h3>
+                <pre>Bani Nanda is a well-known Indian pastry chef and 
+the founder of Miam Patisserie, a boutique bakery 
+in New Delhi, India. She gained recognition for her 
+creative, high-quality desserts and modern French 
+pastry techniques.
+            </pre>
+            </div>
+    
+
+        <div class="col-3">
+            <img src="images/chefs/Radhika_chef.jpg" width="300px" height="400px">
+            <h3>Radhika Khandelwal</h3>
+            <pre>Radhika Khandelwal is a prominent Indian chef and 
+the owner of Fig & Maple, a well-regarded farm-to-table 
+restaurant in New Delhi. She is known for her emphasis 
+on sustainability, zero-waste cooking, and using locally 
+sourced ingredients. Radhika’s culinary philosophy revolves 
+around minimizing food waste, supporting local farmers, and 
+creating innovative dishes using seasonal produce.
+            </pre>
+        </div>
+    </div>
+    <br><br>
+    
+
+    <footer>
+        <div class="feedback">
+            <h2>FEEDBACK</h2>
+            <form>
+                <input type="email" name="email" placeholder="Email"><br>
+                <textarea name="message" placeholder="Message"></textarea>
+                <button id="submit-btn">Submit</button>
+            </form>
+          
+        </div>
+        <div class="vertical-line">
+            <hr>
+        </div>
+      
+
+        <div class="about">
+        <h2>ABOUT US</h2>
+        <pre>Welcome to Fork Delights, your gateway to authentic royal Indian cuisine. 
+Established on March 21, 2020, by Atharv Kuldharan and Devesh Patel, Fork Delights was 
+born out of a shared passion for bringing the rich, regal flavors of India to your plate.
+        </pre>
+        
+        <h3>Contant Us</h3>
+        <br>
+
+        <h4>email :- deveshpatel710@gmail.com</h4>
+        <h4>email :- atharvkuldharn@gmai.com</h4>
+
+        <br>
+        <div class="socialmeadi-logo">
+            <img src="images/home page images/instagram_logo.png">
+            <img src="images/home page images/facebook_logo.png">
+            <img src="images/home page images/youtube_logo.png">
+        </div>
+        <pre>© 2024 Fork Delights. All rights reserved. The content, design, 
+and images displayed on this website are the intellectual property of 
+Fork Delights unless otherwise stated. Unauthorized use, reproduction, 
+or distribution of this material without prior written consent is strictly 
+prohibited. Please contact us at [Above Email].
+        </pre>
+    </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
